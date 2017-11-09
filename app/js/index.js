@@ -17,4 +17,4 @@ var s = new Set(arr);
 for (let key of s) {
     console.log(key);
 }
-s.map((value, key) => console.log(key + ' : ' + value));
+s.map((value, key) => console.log(key + ' : ' + value))
