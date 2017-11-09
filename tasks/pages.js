@@ -5,7 +5,7 @@ import args from './util/args'
 
 
 gulp.task('pages', () => {
-    return gulp.src('app/**/*.ejs')
+    return gulp.src('app/**/*.html')
         .pipe(gulp.dest('server'))
         .pipe(gulpif(args.watch, livereload()))
 })

@@ -1,0 +1,6 @@
+.icon-修改{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: 0px 0px;width: 16px;height: 16px;}
+.icon-删除{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: -21px 0px;width: 16px;height: 16px;}
+.icon-新建{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: 0px -21px;width: 16px;height: 16px;}
+.icon-新建文件{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: -21px -21px;width: 16px;height: 16px;}
+.icon-新建文件夹{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: -42px 0px;width: 16px;height: 16px;}
+.icon-新建文档{background-image: url('../images/sprite.png');background-repeat: no-repeat;background-position: -42px -21px;width: 16px;height: 16px;}
