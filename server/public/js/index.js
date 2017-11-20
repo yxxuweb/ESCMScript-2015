@@ -88,38 +88,5 @@ var obj = _defineProperty({}, a, 'xuyixin');
 console.log(obj[Symbol.for('foo')]);
 console.log(obj[a]);
 
-var arr = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
-
-var s = new Set(arr);
-
-var _iteratorNormalCompletion = true;
-var _didIteratorError = false;
-var _iteratorError = undefined;
-
-try {
-    for (var _iterator = s[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-        var key = _step.value;
-
-        console.log(key);
-    }
-} catch (err) {
-    _didIteratorError = true;
-    _iteratorError = err;
-} finally {
-    try {
-        if (!_iteratorNormalCompletion && _iterator.return) {
-            _iterator.return();
-        }
-    } finally {
-        if (_didIteratorError) {
-            throw _iteratorError;
-        }
-    }
-}
-
-s.map(function (value, key) {
-    return console.log(key + ' : ' + value);
-});
-
 /***/ })
 /******/ ]);
